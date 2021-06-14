@@ -9,7 +9,7 @@ before_install:
 install:
   - echo "Reached Install Section"
  
- script:
+script:
   - echo "Reached Install Section"
   - gcc hello_world.c -0 output
   - ./output
