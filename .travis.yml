@@ -1,0 +1,16 @@
+language: c
+
+compiler:
+  - gcc
+  
+before_install: 
+  - sudo apt-get update
+  
+install:
+  - echo "Reached Install Section"
+ 
+ script:
+  - echo "Reached Install Section"
+  - gcc hello_world.c -0 output
+  - ./output
+  
