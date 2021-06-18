@@ -35,11 +35,10 @@ void array_consecutive_elements() {
 
 int consecutive_elements_count() {
   int count = 0;
-  int cons = 0;
   int tmpArr[] = {0,1,1,0,0};
 
   for(int i = 0; i < ARRAY_SIZE - 4 ; i++) {
-    cons = 0;
+    int cons = 0;
     for(int j = 0; j < 5; j++)  {
       if ( _array[i+j] != tmpArr[j]){
         break;
